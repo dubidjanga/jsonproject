@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:id="@+id/length"
+        android:layout_width="600dp"
+        android:layout_height="185dp"
+        android:text="here is json" />
+
+    <TextView
+
+        android:id="@+id/chain"
+        android:layout_width="600dp"
+        android:layout_height="185dp"
+        android:text="here is json"
+        app:layout_anchor="@+id/length"
+        app:layout_anchorGravity="bottom|center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
