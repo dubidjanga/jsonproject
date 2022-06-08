@@ -4,6 +4,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface SimpleAPI {
-    @GET("chain")
+    @GET("chain_data")
     suspend fun getChain(): Response<Blockchain>
 }
